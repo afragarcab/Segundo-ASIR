@@ -4,15 +4,17 @@ $usuario = "pruebas";
 $password = "pruebas";
 $nombreBD = "pruebas";
 
-$sentenciaSQL = "SELECT id, firstname, lastname FROM MyGuests";
+$sentenciaSQL = "SELECT titulo FROM noticias";
 $conexion = mysqli_connect($direccion,$usuario,$password,$nombreBD);
 $result = mysqli_query($conexion, $sentenciaSQL);
+
+
 
 if (mysqli_num_rows($result) > 0)
 {
     while($row = mysqli_fetch_assoc($result))
     {
-        echo "id: ". $row["id"]. " - Name: ". $row["firstname"]. "" . $row["lastname"]. "<br>";
+        echo "id: ". $row["titulo"].  "<br>";
     }
 } else
 {

@@ -10,3 +10,4 @@ $division = $num1 / $num2;
 
 echo "El producto es: ".$multiplicar."\n";
 echo "La división es: ".$division;
+?>

@@ -32,3 +32,4 @@ function areaCirculo($rad)
     $area = 3.14159 * ($rad * $rad);
     return $area;
 }
+?>

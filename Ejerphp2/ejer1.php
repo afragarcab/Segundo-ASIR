@@ -14,3 +14,4 @@ if ($num >= 1)
 {
     echo "EL número es nulo";
 }
+?>

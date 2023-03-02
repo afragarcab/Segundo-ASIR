@@ -15,3 +15,4 @@ if ($num1 > $num2)
 {
     echo "Los números son iguales" ;
 }
+?>
